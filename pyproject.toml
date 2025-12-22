@@ -17,12 +17,15 @@ dependencies = [
   "hydra-core",
   "matplotlib",
   "imageio[ffmpeg]",
+  "mediapy",
   "opencv-python",
   "newton[examples] @ git+https://github.com/newton-physics/newton.git",
   "rerun-sdk",
   "ipdb",
   "pymeshlab",
   "open3d",
+  "ipykernel",
+  "huggingface_hub"
 ]
 
 [project.scripts]
